@@ -14,7 +14,15 @@
             <option value="$PROJECT_DIR$/common-compose" />
             <option value="$PROJECT_DIR$/common/main" />
             <option value="$PROJECT_DIR$/common/test" />
+            <option value="$PROJECT_DIR$/data" />
+            <option value="$PROJECT_DIR$/data/network" />
+            <option value="$PROJECT_DIR$/data/repository" />
             <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/presentation" />
+            <option value="$PROJECT_DIR$/presentation/ui-characters" />
+            <option value="$PROJECT_DIR$/presentation/ui-episodes" />
+            <option value="$PROJECT_DIR$/presentation/ui-locations" />
+            <option value="$PROJECT_DIR$/presentation/ui-settings" />
           </set>
         </option>
       </GradleProjectSettings>

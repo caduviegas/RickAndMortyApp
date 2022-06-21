@@ -4,7 +4,13 @@
     <bytecodeTargetLevel target="1.7">
       <module name="RickAndMortyApp.app" target="11" />
       <module name="RickAndMortyApp.common-compose" target="11" />
+      <module name="RickAndMortyApp.data.network" target="11" />
+      <module name="RickAndMortyApp.data.repository" target="11" />
       <module name="RickAndMortyApp.domain" target="11" />
+      <module name="RickAndMortyApp.presentation.ui-characters" target="11" />
+      <module name="RickAndMortyApp.presentation.ui-episodes" target="11" />
+      <module name="RickAndMortyApp.presentation.ui-locations" target="11" />
+      <module name="RickAndMortyApp.presentation.ui-settings" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
