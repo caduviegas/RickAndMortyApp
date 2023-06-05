@@ -34,11 +34,37 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.8.0'
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.5.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation Dependecies.kotlin_ktx
+    implementation Dependecies.appcompat
+    implementation Dependecies.material
+    implementation Dependecies.constraintLayout
+    testImplementation Dependecies.junit
+    androidTestImplementation Dependecies.junitTest
+    androidTestImplementation Dependecies.espresso
+    implementation Dependecies.swipe
+
+
+    // navigation
+    implementation Dependecies.navFragment
+    implementation Dependecies.navUi
+    implementation Dependecies.navDynamic
+
+    // lifecycle
+    implementation Dependecies.livedata
+    implementation Dependecies.viewModel
+    implementation Dependecies.lifecycleExtensions
+
+    // glide
+    implementation Dependecies.glide
+    annotationProcessor Dependecies.glideCompiler
+
+    // retrofit
+    implementation Dependecies.retrofit
+    implementation Dependecies.converterGson
+
+    // coroutines
+    implementation Dependecies.coroutines
+
+    // koin
+    implementation Dependecies.koin
 }
